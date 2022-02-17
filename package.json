@@ -1,6 +1,6 @@
 {
   "name": "@infoprojects/stylelint-config-scss",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": "infoprojects/stylelint-config-scss",
   "main": "index.js",
   "scripts": {
