@@ -7,6 +7,7 @@ module.exports = {
   reportDescriptionlessDisables: true,
   defaultSeverity: 'error',
   rules: {
+    'no-descending-specificity': null,
     'number-leading-zero': 'always'
   }
 };
