@@ -1,3 +1,22 @@
 {
-  "name": "@infoprojects/stylelint-config-scss"
+  "name": "@infoprojects/stylelint-config-scss",
+  "version": "0.0.0",
+  "repository": "infoprojects/stylelint-config-scss",
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it --only-version"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^5.0.2"
+  },
+  "devDependencies": {
+    "release-it": "^14.12.4"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.5.0"
+  },
+  "packageManager": "yarn@3.1.1"
 }
