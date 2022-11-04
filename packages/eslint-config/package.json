@@ -1,0 +1,20 @@
+{
+  "name": "@infoprojects/eslint-config",
+  "version": "1.0.0",
+  "repository": "infoprojects/codestyle",
+  "scripts": {
+    "release": "release-it --only-version"
+  },
+  "files": [
+    "eslint-config.js"
+  ],
+  "main": "eslint-config.js",
+  "devDependencies": {
+    "release-it": "^15.5.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0"
+  }
+}
