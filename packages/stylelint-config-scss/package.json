@@ -2,20 +2,18 @@
   "name": "@infoprojects/stylelint-config-scss",
   "version": "0.2.0",
   "repository": "infoprojects/codestyle",
-  "main": "index.js",
   "scripts": {
     "release": "release-it --only-version"
   },
   "files": [
-    "index.js"
+    "stylelint-config.js"
   ],
-  "dependencies": {
-    "stylelint-config-recommended-scss": "^5.0.2"
-  },
+  "main": "stylelint-config.js",
   "devDependencies": {
-    "release-it": "^14.12.4"
+    "release-it": "^15.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.5.0"
+    "stylelint": "^14.14.1",
+    "stylelint-config-recommended-scss": "^8.0.0"
   }
 }
