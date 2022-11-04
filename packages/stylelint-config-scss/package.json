@@ -1,6 +1,6 @@
 {
   "name": "@infoprojects/stylelint-config-scss",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "repository": "infoprojects/codestyle",
   "scripts": {
     "release": "release-it --only-version"
