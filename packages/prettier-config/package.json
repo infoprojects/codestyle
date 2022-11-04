@@ -2,16 +2,10 @@
   "name": "@infoprojects/prettier-config",
   "version": "1.0.0",
   "repository": "infoprojects/codestyle",
-  "scripts": {
-    "release": "release-it --only-version"
-  },
   "files": [
     "prettier-config.js"
   ],
   "main": "prettier-config.js",
-  "devDependencies": {
-    "release-it": "^15.5.0"
-  },
   "peerDependencies": {
     "prettier": "^2.7.1"
   },
