@@ -1,12 +1,12 @@
 {
   "name": "@infoprojects/prettier-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "infoprojects/codestyle",
   "files": [
     "prettier-config.js"
   ],
   "main": "prettier-config.js",
   "peerDependencies": {
-    "prettier": "^3.1.0"
+    "prettier": "^3.6.2"
   }
 }
